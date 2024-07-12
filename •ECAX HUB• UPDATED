@@ -105,13 +105,6 @@ ScriptTab:AddButton({
   	end    
 })
 
-ScriptTab:AddButton({
-	Name = "Free Revive Button After Death",
-	Callback = function()
-      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/RScripter/Xd/main/Break%20in%202%20free%20revive'),true))()
-  	end    
-})
-
 -- Tab : Universal tab
 local UniversalTab = Window:MakeTab({
     Name = "Universal",
@@ -176,13 +169,6 @@ UniversalTab:AddButton({
 	Name = "Tiger Hub v3",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/balintTheDevX/Tiger-X-V3/main/Tiger%20X%20its%20Back"))()
-  	end    
-})
-
-UniversalTab:AddButton({
-	Name = "Boombox Idk If Fe",
-	Callback = function()
-      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/RScripter/Xd/main/BoomBox%20(%20i%20dont%20think%20its%20fe%20)'),true))()
   	end    
 })
 
